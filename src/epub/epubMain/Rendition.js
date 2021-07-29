@@ -13,7 +13,6 @@ import {
 import { WebView } from 'react-native-webview';
 
 import EventEmitter from 'event-emitter';
-
 const URL = require("epubjs/libs/url/url-polyfill.js");
 
 const EMBEDDED_HTML = `

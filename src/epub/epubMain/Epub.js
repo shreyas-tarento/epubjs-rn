@@ -15,7 +15,6 @@ import RNFetchBlob from "rn-fetch-blob";
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-
 if (!global.Blob) {
   global.Blob = RNFetchBlob.polyfill.Blob;
 }
